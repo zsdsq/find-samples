@@ -6,6 +6,10 @@ find -name filename
 
 find -name filename -type f
 
+///// 	поиск по контенту с выводом только расположения найденных
+
+grep -H -R vivek /etc/* | cut -d: -f1
+
 /////	поиск по размеру
 
 find -size +100k -size -2m- файлы больше 100Кб, но меньше 2Мб
