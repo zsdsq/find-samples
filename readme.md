@@ -8,7 +8,7 @@ find -name filename -type f
 
 ///// 	поиск по контенту с выводом только расположения найденных
 
-grep -H -R vivek /etc/* | cut -d: -f1
+grep -H -R serched_str /etc/* | cut -d: -f1
 
 /////	поиск по размеру
 
